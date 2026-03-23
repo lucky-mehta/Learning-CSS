@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS TRANSFORM(SCALE)</title>
+    <style>
+        .box{
+            height: 100px;
+            width: 100px;
+            padding: 10px;
+            margin: 50px;
+            border: 2px solid black;
+            border-radius: 5px;
+            position: relative; 
+            top: 50px;
+            left: 50px;
+            background-color: pink;
+            text-align: center;
+            transition: all 4s linear 1s;
+        }
+        #box1:hover{
+            transform:scale(2);
+        }
+        #box2:hover{
+            transform:scale(0.5);
+        }
+        #box3:hover{
+            transform:scale(4);
+        }
+        #box4:hover{
+            transform:scale(3);
+        }
+
+    </style>
+</head>
+<body>
+    <div id= "box1" class="box">Scale1</div>
+    <div id= "box2" class="box">Scale2</div>
+    <div id= "box3" class="box">Scale3</div>
+    <div id= "box4" class="box">Scale4</div>
+</body>
+</html>

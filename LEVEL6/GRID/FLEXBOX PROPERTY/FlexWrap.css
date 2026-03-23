@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.box{
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+    margin: 5px;
+}
+#heading{
+    text-align: center;
+}
+#container{
+    height: 600px;
+    width: 600px;
+    background-color: aqua;
+    padding: 10px;
+    margin: 20px;
+display: flex;
+flex-wrap:  wrap-reverse;   /*wrap , wrap-reverse */
+}
+#box1{
+    background-color: yellow;
+}
+#box2{
+    background-color: blue;
+}
+#box3{
+    background-color: brown;
+}
+#box4{
+    background-color: rgb(146, 40, 40);
+}
+#box5{
+    background-color: darkgray;
+}
+#box6{
+    background-color: rgb(68, 163, 8);
+}
+#box7{
+    background-color: rgb(117, 112, 159);
+}

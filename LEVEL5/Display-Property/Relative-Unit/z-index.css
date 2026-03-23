@@ -1,0 +1,24 @@
+#content{
+    position: relative;
+}
+#one,#second{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border: 3px solid black;
+    text-align: center;
+    font-size: 25px;
+}
+#one{
+    background-color: red;
+    top: 60px;
+    left: 20px;
+    z-index: 2;
+
+}
+#second{
+    background-color: aqua;
+    top: 20px;
+    left: 60px;
+    z-index: 1;
+}

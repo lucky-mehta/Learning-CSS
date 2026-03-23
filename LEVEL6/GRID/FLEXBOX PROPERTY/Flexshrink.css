@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.box{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    margin: 5px;
+}
+#heading{
+    text-align: center;
+}
+#container{
+    height: 300px;
+    width: 600px;
+    background-color: aqua;
+    padding: 10px;
+    margin: 20px;
+display: flex;
+justify-content: center;
+}
+#box1{
+    background-color: yellow;
+}
+#box2{
+    background-color: blue;
+    flex-shrink: 0;
+}
+#box3{
+    background-color: brown;
+}
+#box4{
+    background-color: blueviolet;
+}
