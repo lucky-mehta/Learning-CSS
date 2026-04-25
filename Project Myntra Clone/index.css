@@ -133,6 +133,30 @@ justify-content: space-evenly;
     text-decoration: none;
     padding-bottom: 5px;
 }
+.popular-searches {
+  padding: 20px;
+}
+
+.popular-searches h3 {
+  font-size: 14px;
+  color: #696b79;
+  margin-bottom: 10px;
+}
+
+.popular-searches p {
+  font-size: 17px;
+  color: #282c3f;
+  line-height: 1.8;
+}
+
+.popular-searches a {
+  text-decoration: none;
+  color: #282c3f;
+}
+
+.popular-searches a:hover {
+  color: #ff3f6c; /* Myntra pink color */
+}
 
 .copyright{
     color: #94969f;
